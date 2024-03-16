@@ -1,0 +1,13 @@
+.pre-loader-container {
+   display: grid; 
+   place-items: center; 
+   height: 100vh;
+ }
+ 
+ .pre-loader {
+   display: flex;
+ }
+ body{
+  background-color:#000;
+  font-family:pacifico, sans-serif;
+ }
