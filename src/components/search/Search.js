@@ -2,16 +2,13 @@ import { useState } from "react";
 import './Search.css'
 import { AsyncPaginate } from "react-select-async-paginate";
 import {url,geooptions} from './Api';
-import Toggle from "react-toggle";
+// import Toggle from "react-toggle";
 import img from '../../icons/icons8-night-64.png'
 
 
 const Search=({onchangeSearch})=>
 {
-  const [isDark, setIsDark] = useState(true);
-  const toggleTheme = () => {
-    setIsDark(!isDark);
-  }; 
+ 
 
     const [search,setsearch]=useState(null);
     // const [userLocation,setUserLocation]=useState(null);
@@ -40,7 +37,7 @@ const Search=({onchangeSearch})=>
     return(
       <div  className="search-box">
         <div className=" search-bar">
-       <p className="text-center text-light h3"><img src={img}></img>Weather</p>
+       <p className="text-center text-light h3"><img src={img} alt=""></img>Weather</p>
       <AsyncPaginate
        style={{ backgroundColor: '#000',color:'#0d6efd'}}
       className="search-bar rounded-3"

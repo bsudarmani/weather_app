@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+// import { useState,useEffect } from "react";
 // import PuffLoader from "react-spinners/PuffLoader";
 import animation from '../../animation.json';
 import Lottie from "lottie-react";
