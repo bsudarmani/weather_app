@@ -25,13 +25,13 @@ const Loader=()=>
         aria-label="Loading Spinner"
         data-testid="loader"
       /> */}
-      <div style={{ width: '1000px', height: '700px' }}> 
-      <Lottie animationData={animation} style={{ width: '100%', height: '100%' }}
+    <div className="please-wait">
+    <Lottie animationData={animation} style={{ width: '100%', height: '100%' }}
        size={100}
        className='pre-loader'
        aria-label="Loading Spinner"
        data-testid="loader" />
-    </div>
+      </div>
     </div> 
   </div>
     )

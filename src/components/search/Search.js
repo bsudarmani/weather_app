@@ -35,7 +35,8 @@ const Search=({onchangeSearch})=>
         });
     };
     return(
-      <div  className="search-box">
+      <>
+      <div  className="search-box ">
         <div className=" search-bar">
        <p className="text-center text-light h3"><img src={img} alt=""></img>Weather</p>
       <AsyncPaginate
@@ -49,6 +50,8 @@ const Search=({onchangeSearch})=>
       />
       </div>
    </div>
+   </>
+
     )
 }
 export default Search;
